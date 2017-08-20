@@ -9,18 +9,15 @@ namespace Game2
     /// </summary>
     public class Game1 : Game
     {
-        GraphicsDeviceManager graphics;
-        SpriteBatch spriteBatch;
+        public GraphicsDeviceManager graphics;
+        public SpriteBatch spriteBatch;
 
-        Texture2D image;
-        Vector2 position;
-        Vector2 origin = new Vector2(0, 0);
-        Vector2 halfScale = new Vector2(0.5f, 0.5f);
-        Rectangle drawRec;
+        World world;
 
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+            world = new World(this);
             Content.RootDirectory = "Content";
         }
 
@@ -33,7 +30,7 @@ namespace Game2
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            world.Initialize();
             base.Initialize();
         }
 
@@ -45,11 +42,9 @@ namespace Game2
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            world.LoadContent();
             // TODO: use this.Content to load your game content here
-            image = Content.Load<Texture2D>("Images/renge");
-            position = origin;
-            drawRec = new Rectangle(0, 0, image.Width/2, image.Height/2) ;
+            
         }
 
         /// <summary>
@@ -58,6 +53,7 @@ namespace Game2
         /// </summary>
         protected override void UnloadContent()
         {
+            world.UnloadContent();
             // TODO: Unload any non ContentManager content here
         }
 
@@ -73,6 +69,8 @@ namespace Game2
 
             // TODO: Add your update logic here
 
+            world.Update(gameTime);
+
             base.Update(gameTime);
         }
 
@@ -83,9 +81,7 @@ namespace Game2
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-            spriteBatch.Begin();
-            spriteBatch.Draw(image, position,drawRec,Color.White,origin,origin,halfScale);
-            spriteBatch.End();
+            world.Draw(gameTime);
 
             // TODO: Add your drawing code here
 
