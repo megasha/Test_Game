@@ -46,3 +46,4 @@ C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\bin\Windows\x86\Debug\S
 C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\obj\x86\Debug\Game2.csprojResolveAssemblyReference.cache
 C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\obj\x86\Debug\Game2.exe
 C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\obj\x86\Debug\Game2.pdb
+C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\bin\Windows\x86\Debug\Content\Images\glory.xnb

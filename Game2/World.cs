@@ -14,22 +14,30 @@ namespace Game2
         Game1 game;
 
         Player player;
-        Vector2 winSize;
+        Camera cam;
+
+        Texture2D image;
+        Rectangle drawRec;
 
         public World(Game1 currGame)
         {
             game = currGame;
-            winSize = new Vector2();
         }
 
         public void Initialize()
         {
-
+            cam = new Camera();
+            cam.ViewportWidth = game.GraphicsDevice.Viewport.Width;
+            cam.ViewportHeight = game.GraphicsDevice.Viewport.Height;
         }
 
         public void LoadContent()
         {
             player = new Player(game);
+            cam.SetFocus(player);
+
+            image = game.Content.Load<Texture2D>("Images/glory");
+            drawRec = new Rectangle(0, 0, image.Width, image.Height);
         }
 
         public void UnloadContent()
@@ -38,15 +46,19 @@ namespace Game2
 
         public void Update(GameTime gameTime)
         {
-            winSize.X = game.GraphicsDevice.Viewport.Width;
-            winSize.Y = game.GraphicsDevice.Viewport.Height;
-
             player.Update();
+            cam.Update();
         }
 
         public void Draw(GameTime gameTime)
         {
-            player.Draw();
+            player.Draw(cam);
+
+
+            Vector2 origin = Vector2.Transform(new Vector2(0, 0), cam.TranslationMatrix);
+            game.spriteBatch.Begin();
+            game.spriteBatch.Draw(image, origin, drawRec, Color.White);
+            game.spriteBatch.End();
         }
     }
 }

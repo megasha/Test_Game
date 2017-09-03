@@ -32,6 +32,8 @@ namespace Game2
             // TODO: Add your initialization logic here
             world.Initialize();
             base.Initialize();
+
+            this.Window.Title = "Gey";
         }
 
         /// <summary>
