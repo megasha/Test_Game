@@ -101,7 +101,7 @@ namespace Game2
 
 
 
-        public void Update()
+        public void Update(GameTime gameTime)
         {
             FollowFocus();
         }

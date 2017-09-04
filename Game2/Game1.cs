@@ -19,6 +19,9 @@ namespace Game2
             graphics = new GraphicsDeviceManager(this);
             world = new World(this);
             Content.RootDirectory = "Content";
+
+            graphics.PreferredBackBufferWidth = 1280;
+            graphics.PreferredBackBufferHeight = 720;
         }
 
         /// <summary>
@@ -33,7 +36,7 @@ namespace Game2
             world.Initialize();
             base.Initialize();
 
-            this.Window.Title = "Gey";
+            this.Window.Title = "Ayy lmao";
         }
 
         /// <summary>

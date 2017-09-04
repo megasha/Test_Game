@@ -47,3 +47,10 @@ C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\obj\x86\Debug\Game2.csp
 C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\obj\x86\Debug\Game2.exe
 C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\obj\x86\Debug\Game2.pdb
 C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\bin\Windows\x86\Debug\Content\Images\glory.xnb
+C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\bin\Windows\x86\Debug\Content\Sounds\moe.wma
+C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\bin\Windows\x86\Debug\Content\Sounds\moe.xnb
+C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\bin\Windows\x86\Debug\Content\Images\homura_nl.xnb
+C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\bin\Windows\x86\Debug\Content\Images\homura_nr.xnb
+C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\bin\Windows\x86\Debug\Content\Images\tmp.xnb
+C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\bin\Windows\x86\Debug\Content\Images\homura_rr.xnb
+C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\bin\Windows\x86\Debug\Content\Images\homura_rl.xnb
