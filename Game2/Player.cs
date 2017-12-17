@@ -120,7 +120,7 @@ namespace Game2
         public void Draw(Camera cam)
         {
             Vector2 pos = Vector2.Transform(position, cam.TranslationMatrix);
-            Console.WriteLine("Player Position Camera Space: {0}", pos.ToString());
+            //Console.WriteLine("Player Position Camera Space: {0}", pos.ToString());
 
             int width = currImage.Width / columns;
             int height = currImage.Height;

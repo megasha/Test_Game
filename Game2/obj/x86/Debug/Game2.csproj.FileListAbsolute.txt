@@ -54,3 +54,6 @@ C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\bin\Windows\x86\Debug\C
 C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\bin\Windows\x86\Debug\Content\Images\tmp.xnb
 C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\bin\Windows\x86\Debug\Content\Images\homura_rr.xnb
 C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\bin\Windows\x86\Debug\Content\Images\homura_rl.xnb
+C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\obj\x86\Debug\Game2.csproj.CoreCompileInputs.cache
+C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\bin\Windows\x86\Debug\ManagedBass.dll
+C:\Users\Jimmy\Desktop\Jim\dev\game test\Test_Game\Game2\bin\Windows\x86\Debug\ManagedBass.xml

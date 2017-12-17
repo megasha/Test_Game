@@ -29,7 +29,8 @@ namespace Game2
         {
             get
             {
-                return new Vector2(ViewportWidth * 0.5f, ViewportHeight * 0.5f);
+                //return new Vector2(ViewportWidth * 0.5f, ViewportHeight * 0.5f);
+                return new Vector2(ViewportWidth, ViewportHeight);
             }
         }
 
